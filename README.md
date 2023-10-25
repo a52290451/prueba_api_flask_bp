@@ -49,13 +49,9 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local:
 5. Configura las variables de entorno en un archivo .env con la siguiente estructura:
 
 > DB_USER_FBP= ****
-
 > DB_PASSWORD_FBP= ****
-
 > DB_HOST_FBP= ****
-
 > DB_PORT_FBP= ****
-
 > DB_NAME_FBP= ****`
 
 Este archivo debe estar en la raiz del proyecto.
