@@ -15,7 +15,7 @@ Este proyecto es una API REST desarrollada con Flask y PostgreSQL que permite ge
 
 Para utilizar el API, se requiere instalar PostgresSQL y crear una BD de acuerdo con el siguiente modelo de datos:
 
-MODELO
+https://github.com/udistrital/lineamientos_oas/blob/master/generacion_de_apis/img/002.png
 
 ## Instalación
 
@@ -48,11 +48,15 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local:
 
 5. Configura las variables de entorno en un archivo .env con la siguiente estructura:
 
-DB_USER_FBP= ****
-DB_PASSWORD_FBP= ****
-DB_HOST_FBP= ****
-DB_PORT_FBP= ****
-DB_NAME_FBP= ****
+> DB_USER_FBP= usuario
+> 
+> DB_PASSWORD_FBP= contraseña
+> 
+> DB_HOST_FBP= host
+> 
+> DB_PORT_FBP= puerto
+> 
+> DB_NAME_FBP= nombre BD
 
 Este archivo debe estar en la raiz del proyecto.
 
@@ -67,12 +71,21 @@ La aplicación estará disponible en http://localhost:5000.
 ## Estructura de Archivos
 
 **app.py**: Archivo principal de la aplicación.
+
 **config.py**: Archivo de configuración para conexión a la BD.
+
 **models.py**: Definición de modelos de base de datos.
+
 **extensions.py**: Archivo que inicializa la BD con SQLAlchemy.
+
 **rol/** */: Directorio que contiene el Blueprint para la entidad "Rol".
+
 **rol/rol.py**: Blueprint con webservices de rol.
+
 **usuario/** */: Directorio que contiene el Blueprint para la entidad "Usuario".
+
 **usuario/usuario.py**: Blueprint con webservices de usuario.
+
 **.gitignore**: elementos que serán ignorados a la hora de realizar actualizaciones en el repositorio.
+
 **requirements.txt**: requerimientos para ejecutar el proyecto.
